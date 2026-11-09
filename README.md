@@ -47,11 +47,14 @@ Le fichier n'est pas inclus dans le dépôt. Pour reproduire le projet, téléch
 
 ## Structure du projet
 
-├── data/ # données (non versionnées)
-├── models/ # pipeline sauvegardé (joblib)
-├── notebooks/ # notebook d’analyse complet
-│   └── segmentation_clients.ipynb
+~~~text
+├── data/                            # données (non versionnées)
+├── models/                          # pipeline sauvegardé (joblib)
+├── notebooks/
+│   └── segmentation_clients.ipynb   # analyse complète, du nettoyage au pipeline
+├── requirements.txt                 # dépendances
 └── README.md
+~~~
 
 
 ## Installation et utilisation
