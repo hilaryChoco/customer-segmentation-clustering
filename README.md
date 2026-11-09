@@ -66,7 +66,7 @@ Le fichier n'est pas inclus dans le dépôt. Pour reproduire le projet, téléch
 
    **Avec conda :**
    ```bash
-   conda create -n segmentation python=3.11.
+   conda create -n segmentation python=3.11.15
    conda activate segmentation
    pip install -r requirements.txt
    ```
